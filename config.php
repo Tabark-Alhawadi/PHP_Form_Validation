@@ -7,7 +7,7 @@ class crud{
 
         $con=new PDO('mysql:localhost=localhost;dbname=php_validation','root','');
 
-        // echo "succesfoly";
+        // echo "successful";
         return $con;
 
     }catch(PDOException $error){
